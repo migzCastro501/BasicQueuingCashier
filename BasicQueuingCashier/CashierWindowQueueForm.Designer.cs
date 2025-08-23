@@ -83,6 +83,7 @@
             this.Controls.Add(this.btnRefresh);
             this.Name = "CashierWindowQueueForm";
             this.Text = "CashierWindowQueueForm";
+            this.Load += new System.EventHandler(this.CashierWindowQueueForm_Load);
             this.ResumeLayout(false);
 
         }
